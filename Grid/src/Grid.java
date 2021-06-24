@@ -15,17 +15,17 @@ public class Grid {
 		
 		// link provided to execute the test script to execute in node 
 		
-		String nodeURL = "http://192.168.0.103:4444/wd/hub";
+		String nodeURL = "node URL";
 		
 		//Provide the Chrome driver location 
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\samdany\\Desktop\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "driver path\\chromedriver.exe");
 		
 		// Setting up the chrome option class for setting up the capabalities and connect  -> browser opened in debugger mode 
 		ChromeOptions options = new ChromeOptions();
 		options.setCapability("platform", "WINDOWS");
 		options.setCapability("browser", "chrome");
-		options.setExperimentalOption("debuggerAddress", "localhost:9228");
+		options.setExperimentalOption("debuggerAddress", "localhost:port");
 		
 	    // Setting up the Remote Web driner 
 		
